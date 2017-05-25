@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Guessing Game</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-bottom navbar-toggleable-md navbar-light">
+            <h1>Guessing Game</h1>
+            <span class="navbar-text">
+     <p id = "alerts">a game in which you guess</p>
+    </span>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class='frame center-block'>
+
+            <input id="player-enter" class="ball" maxlength='3' autofocus=autofocus>
+            </input>
+            <button id="go">Guess!</button>
+        </div>
+        <div class='wrapper'>
+            <ul id="guesses">
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+            </ul>
+
+            <div class="menu-btns">
+                <button class="btn btn-success utility" id="hint">Hint</button>
+                <button class="btn btn-warning utility" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="footer center">
+        <div class="container">
+            <div class='row'>
+                <div class='col-sm-6'>
+                    <img src="fa-logo@2x.png" class="logos">
+                </div>
+                <div class='col-sm-6'>
+                    <img src="grace_hopper_academy.png" class="logos" id="grace">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/GuessingGame.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
