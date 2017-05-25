@@ -51,7 +51,7 @@ Game.prototype.checkGuess = function () {
 
         if (this.pastGuesses.length === 5) {
             $("#go, #hint").prop('disabled', true);
-            return "You Lose.";
+            return "You Lose. It was " + this.winningNumber;
         } else if (this.difference() < 10) {
             return "You\'re burning up!";
         } else if (this.difference() < 25) {
